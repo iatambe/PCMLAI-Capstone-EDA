@@ -3,7 +3,7 @@
 **Indraneel Tambe**
 
 #### Executive summary
-I'd like to experiment with some different ML models and cmopare their performance in detecting diagnostic conditions ECG (electrocardiogram) signals to diagnose heart conditions based on the ECG signal morphology. Specifically, in the full capstone project I'll be experimenting with different classification heads on top of a basic 1D CNN-based model that I train from scratch in this EDA assignment. 
+I'd like to experiment with some different ML models and compare their performance in detecting diagnostic conditions ECG (electrocardiogram) signals to diagnose heart conditions based on the ECG signal morphology. Specifically, in the full capstone project I'll be experimenting with different classification heads on top of a basic 1D CNN-based model that I train from scratch in this EDA assignment. 
 
 #### Research Question
 What kinds of design choices for simple classifier models lead to the best results when working with the PTB-XL dataset (specifically their diagnostic superclasses)? Specifically, after training a deep model consisting of a feature extractor followed by a dense classifier head, we will try piping the feature extractor into various non-deep ML models and see how they compare to the original "fully deep" model.  
@@ -22,16 +22,11 @@ The ECG strips are labeled by human clinicians with a list of possible diagnosti
 For the analysis, I'm planning to start with a base deep-learning model which consists of a 1D CNN-based feature extractor followed by a dense classifier head. Next, in the full capstone project, I will try piping the trained feature extractor into various non-deep ML models for classifications and see if they can outperform the original deep classifier.
 
 #### Results
-What did your research find?
+We found that the base deep model performed reasonably well on the data, achieving an AUPRC of about 0.73. 
 
 #### Next steps
-What suggestions do you have for next steps?
+Next, in the full capstone project I'll be experimenting with different classification heads on top of the feature extractor of the base model we trained in this EDA project.
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
-
-
-##### Contact and Further Information
+. . .
